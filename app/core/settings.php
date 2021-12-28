@@ -8,7 +8,7 @@
 date_default_timezone_set('America/Mexico_City');
 
 define('PREPROS'     , true); // Activar en caso de trabajar el desarrollo en prepros como servidor local
-define('PORT'       , '8848'); // Puerto por defecto de Prepros < 2020
+define('PORT'       , '80'); // Puerto por defecto de Prepros < 2020
 
 // Lenguaje
 define('SITE_LANG'   , $this->lng);

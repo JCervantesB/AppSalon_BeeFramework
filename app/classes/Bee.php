@@ -186,6 +186,7 @@ class Bee {
   {
     // Inicializar procesos personalizados del sistema o aplicación
     // ........
+    require_once __DIR__ . '../../includes/app.php';
   }
 
   /**
