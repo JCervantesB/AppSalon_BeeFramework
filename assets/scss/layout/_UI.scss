@@ -9,7 +9,7 @@
     }
     .imagen {
         height: 20rem;
-        background-image: url(../img/2.jpeg);
+        background-image: url(../img/3.jpg);
         background-size: cover;
         background-position: center center;
         @include m.tablet {
@@ -46,16 +46,19 @@
     align-items: center;
 
     .boton {
-        @include m.boton(v.$negro, v.$blanco);
+        @include m.boton(v.$gris-oscuro, v.$blanco);
         margin: 0;
+
+        &:hover {
+            background-color: darken(v.$gris-oscuro, 5%);
+        }
     }
 
     .avatar {       
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 5rem;
-        width: 5rem;
+        align-content: center;
         max-height: 5rem;
         min-width: 5rem;
         margin-left: 2rem;
@@ -67,6 +70,7 @@
     .inicial {
         font-size: 4.5rem;
         font-weight: v.$bold;
+        margin: 0 auto;
     }
 }
 
@@ -80,6 +84,10 @@
 
     .boton {
         margin: 0 0 1rem 0;
+
+        &:hover {
+            background-color: v.$blanco;
+        }
     }
 }
 
