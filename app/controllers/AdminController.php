@@ -10,7 +10,7 @@ class adminController extends Controller {
         $fechas = explode('-', $fecha);
         
         if(!checkdate($fechas[1], $fechas[2], $fechas[0])) {
-            Redirect::to('/error');
+            Redirect::to('/admin');
         }
         
         // Consultar la base de datos
