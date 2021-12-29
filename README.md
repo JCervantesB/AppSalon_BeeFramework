@@ -36,5 +36,7 @@ Configuraciones requeridas:
 
 
 # Bee-Framework
+[Bee-Framework]: https://github.com/JCervantesB/bee_framework
+
 Mini framework desarrollado por el equipo de Joystick SA de CV en México.
 Puedes hacer uso de el para tus proyectos personales o comerciales, es ligero y fácil de implementar para proyectos tanto pequeños como aquellos que requieren escalabilidad y visión a futuro.
