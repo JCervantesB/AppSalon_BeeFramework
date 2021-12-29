@@ -1,4 +1,7 @@
 <?php require_once INCLUDES . 'inc_header.php'; ?>
+<?php 
+  include_once __DIR__ . "/../../includes/alertas.php";
+?>
 
 <h1 class="nombre-pagina">¡Olvide mi contraseña!</h1>
 <p class="descripcion-pagina">Reestablece tu contraseña escribiendo tu email a continuación</p>

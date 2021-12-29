@@ -1,5 +1,9 @@
 <?php require_once INCLUDES . 'inc_header.php'; ?>
 
+<?php 
+  include_once __DIR__ . "/../../includes/alertas.php";
+?>
+
 <h1 class="nombre-pagina">Login</h1>
 <p class="descripcion-pagina">Inicia sesión con tus datos</p>
 

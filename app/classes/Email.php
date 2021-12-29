@@ -28,10 +28,10 @@ class Email {
         $mail->Username = 'd910a798db45e3';
         $mail->Password = '0909c36e7491be';
         $mail->SMTPSecure = 'tls';
-        $mail->Port = '2525';
+        $mail->Port = '587';
 
         // Contenido del email
-        $mail->setFrom('cuentas@appsalon.com');
+        $mail->setFrom('imjcervantes@gmail.com');
         $mail->addAddress($this->email);
         $mail->Subject = 'Confirma tu cuenta';
 
@@ -41,7 +41,7 @@ class Email {
 
         $contenido = "<html>";
         $contenido .= "<p><strong>Hola " . $this->nombre . "</strong> Haz creado tu cuenta en AppSalon, solo debes confirmarla presionando el siguiente enlace </p>";
-        $contenido .= "<p>Presiona aquí: <a href='http://localhost:3000/confirmar-cuenta?token=" . $this->token . "'>Confirmar Cuenta </a> </p>";
+        $contenido .= "<p>Presiona aquí: <a href='https://appsalon.julio-cervantes.com/auth/confirmar?token=" . $this->token . "'>Confirmar Cuenta </a> </p>";
         $contenido .= "<p>Si tu no solicitaste esta cuenta, puedes ignorar el mensaje </p>";
         $contenido .= "</html>";
 
@@ -62,10 +62,10 @@ class Email {
         $mail->Username = 'd910a798db45e3';
         $mail->Password = '0909c36e7491be';
         $mail->SMTPSecure = 'tls';
-        $mail->Port = '2525';
+        $mail->Port = '587';
 
         // Contenido del email
-        $mail->setFrom('cuentas@appsalon.com');
+        $mail->setFrom('imjcervantes@gmail.com');
         $mail->addAddress($this->email);
         $mail->Subject = 'Reestablece tu password';
 
@@ -75,7 +75,7 @@ class Email {
 
         $contenido = "<html>";
         $contenido .= "<p><strong>Hola " . $this->nombre . "</strong> Haz solicitado reestablecer tu password, sigue el siguiente enlace para hacerlo. </p>";
-        $contenido .= "<p>Presiona aquí: <a href='http://localhost:3000/recuperar?token=" . $this->token . "'> Reestablecer Password </a> </p>";
+        $contenido .= "<p>Presiona aquí: <a href='https://appsalon.julio-cervantes.com/auth/recuperar?token=" . $this->token . "'> Reestablecer Password </a> </p>";
         $contenido .= "<p>Si tu no solicitaste esta cuenta, puedes ignorar el mensaje </p>";
         $contenido .= "</html>";
 
