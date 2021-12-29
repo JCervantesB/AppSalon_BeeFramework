@@ -33,7 +33,7 @@ function css() {
 
 function javascript() {
     return src(paths.js)
-      .pipe(terser())
+    //   .pipe(terser())
       .pipe(sourcemaps.write('.'))
       .pipe(dest('assets/build/js'));
 }

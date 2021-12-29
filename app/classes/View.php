@@ -1,5 +1,7 @@
 <?php 
 
+require_once __DIR__ . '../../includes/app.php';
+
 class View {
 
   public static function render($view, $data = [])
@@ -14,4 +16,5 @@ class View {
     require_once VIEWS.CONTROLLER.DS.$view.'View.php';
     exit();
   }
+  
 }
