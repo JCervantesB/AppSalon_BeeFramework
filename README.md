@@ -14,20 +14,20 @@ AppSalon permite administrar las citas de Salones de belleza y/o Barberias
 Configuraciones requeridas:
 
 - app/config/bee_config.php
--- Cambiar REMOTE_ADDR por la URL real de tu host
--- Cambiar ____EL BASEPATH EN PRODUCCIÓN___ por el de tu host, si se encuentra en la raiz donde apunta el dominio, colocarlo como: '/'
--- El apartado // Set para conexión en producción no se utiliza en este proyecto ya que usa ActiveRecord.
+    Cambiar REMOTE_ADDR por la URL real de tu host
+    Cambiar ____EL BASEPATH EN PRODUCCIÓN___ por el de tu host, si se encuentra en la raiz donde apunta el dominio, colocarlo como: '/'
+    El apartado // Set para conexión en producción no se utiliza en este proyecto ya que usa ActiveRecord.
 
 - app/core/settings.php 
--- define('PORT', '80'); // Modificar solo si no corre en el puerto 80.
--- define('SITE_NAME'   , 'AppSalon');    // Nombre del sitio
--- define('SITE_VERSION', '1.0.0');          // Versión del sitio
+    define('PORT', '80'); // Modificar solo si no corre en el puerto 80.
+    define('SITE_NAME'   , 'AppSalon');    // Nombre del sitio
+    define('SITE_VERSION', '1.0.0');          // Versión del sitio
 
 - app/includes/database.php
--- Configuración para la conexión a la base de datos requerida en ActiveRecord
+    Configuración para la conexión a la base de datos requerida en ActiveRecord
 
 - /app/classes/Email.php
--- Configuración de PHPMailer
+    Configuración de PHPMailer
 
 # Changelog
 - Se cambio la clase ActiveRecord por Model en /app/classes/
