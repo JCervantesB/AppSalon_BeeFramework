@@ -1,6 +1,6 @@
 <?php
 
-class ServicioController extends Controller {
+class servicioController extends Controller {
     public static function index() {
         // session_start()
         isAdmin();

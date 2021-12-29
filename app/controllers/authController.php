@@ -2,7 +2,7 @@
 
 use Classes\Email;
 
-class AuthController extends Controller
+class authController extends Controller
 {
   function __construct()
   {

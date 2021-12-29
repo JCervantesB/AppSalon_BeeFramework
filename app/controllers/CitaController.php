@@ -1,6 +1,6 @@
 <?php
 
-class CitaController extends Controller{
+class citaController extends Controller{
 
     function __construct()
   {

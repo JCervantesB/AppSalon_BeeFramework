@@ -1,6 +1,6 @@
 <?php
 
-class AdminController extends Controller {
+class adminController extends Controller {
     public static function index() {
         //session_start();
 

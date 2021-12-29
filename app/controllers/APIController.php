@@ -1,6 +1,6 @@
 <?php
 
-class APIController extends Controller {
+class apiController extends Controller {
     public static function index() {
         $servicios = ServicioModel::all();
         echo json_encode($servicios, JSON_UNESCAPED_UNICODE);
