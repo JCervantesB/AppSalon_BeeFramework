@@ -18,7 +18,7 @@
         text-align: center;
 
         &.seleccionado {
-            background-color: v.$azul;
+            background-color: v.$base;
             p {
                 color: v.$blanco;
             }
@@ -33,7 +33,7 @@
             margin: 0 0 calc(v.$separacion / 4) 0;
         }
         .precio-servicio {
-            color: v.$azul;
+            color: v.$base;
             font-weight: v.$bold;
             font-size: 3rem;
             margin: 0;

@@ -2,7 +2,7 @@
 @use 'base/mixins' as m;
 
 .boton {
-    @include m.boton(v.$azul, v.$blanco);
+    @include m.boton(v.$base, v.$blanco);
 }
 
 .boton-eliminar {

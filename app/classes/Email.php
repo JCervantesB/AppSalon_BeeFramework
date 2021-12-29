@@ -31,7 +31,7 @@ class Email {
         $mail->Port = '587';
 
         // Contenido del email
-        $mail->setFrom('imjcervantes@gmail.com');
+        $mail->setFrom('appsalon@correo.com', 'AppSalon');
         $mail->addAddress($this->email);
         $mail->Subject = 'Confirma tu cuenta';
 
@@ -65,7 +65,7 @@ class Email {
         $mail->Port = '587';
 
         // Contenido del email
-        $mail->setFrom('imjcervantes@gmail.com');
+        $mail->setFrom('appsalon@correo.com', 'AppSalon');
         $mail->addAddress($this->email);
         $mail->Subject = 'Reestablece tu password';
 

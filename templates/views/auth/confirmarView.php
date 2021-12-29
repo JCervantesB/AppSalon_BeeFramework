@@ -7,7 +7,7 @@
 ?>
 
 <div class="acciones">
-    <a href="/">Iniciar Sesión</a>
+    <a href="/" class="boton">Iniciar Sesión</a>
 </div>
 
 <?php require_once INCLUDES . 'inc_footer_v2.php'; ?>

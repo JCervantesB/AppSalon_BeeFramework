@@ -9,7 +9,7 @@
     }
     .imagen {
         height: 20rem;
-        background-image: url(../img/1.jpg);
+        background-image: url(../img/2.jpeg);
         background-size: cover;
         background-position: center center;
         @include m.tablet {
@@ -59,7 +59,7 @@
         max-height: 5rem;
         min-width: 5rem;
         margin-left: 2rem;
-        background-color: v.$azul;
+        background-color: v.$base;
         border-radius: 50%;
         user-select: none;
         
@@ -81,4 +81,8 @@
     .boton {
         margin: 0 0 1rem 0;
     }
+}
+
+.bg-base {
+    background-color: v.$base;
 }

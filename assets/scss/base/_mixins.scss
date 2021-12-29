@@ -39,7 +39,7 @@
         width: auto;
     }
     &:hover {
-        background-color: darken( $bgColor, 10% );
+        background-color: darken( v.$blanco, 10% );
         cursor: pointer;
     }
 }

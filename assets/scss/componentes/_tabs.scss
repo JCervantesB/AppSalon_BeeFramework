@@ -6,7 +6,7 @@
         display: flex;
     }
     button {
-        background-color: v.$azul;
+        background-color: v.$base;
         border: none;
         color: v.$blanco;
         padding: 1rem;
@@ -19,11 +19,11 @@
 
         &:hover {
             cursor: pointer;
-            background-color: darken(v.$azul, 10%);
+            background-color: darken(v.$base, 10%);
         }
         &.actual {
             background-color: v.$blanco;
-            color: v.$azul;
+            color: v.$base;
         }
     }
 }
