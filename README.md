@@ -30,9 +30,19 @@ Configuraciones requeridas:
 - Configuración de PHPMailer
 
 ### Changelog
+v1.0.2
 - Se cambio la clase ActiveRecord por Model en /app/classes/
 - Todos los modelos extienden ahora de Model y no de ActiveRecord
 - Se renombraron todos los Controladores, en Bee Framework es necesario utilizar "camelCase" en su nombres.
+- Se realizo una corrección a buscador.js que al mandarle una fecha vacia mandaba un error 404
+https://github.com/JCervantesB/AppSalon_BeeFramework/commit/5dedc5283ca26d7e85076f7b0d62d5daa63055a3
+
+### Instalación de Composer
+- Ejecutar desde la terminal en /app
+~~~
+cd ./app
+composer install
+~~~
 
 
 # Bee-Framework
