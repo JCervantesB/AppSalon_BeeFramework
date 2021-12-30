@@ -44,6 +44,9 @@ cd ./app
 composer install
 ~~~
 
+### Base de datos
+> Importar la base de datos desde DataBase/appsalon.sql
+
 
 # Bee-Framework
 https://github.com/JCervantesB/bee_framework
